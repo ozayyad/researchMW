@@ -1,9 +1,9 @@
-<% if current_user %>
-<div class="btn h2 center">
+<% if signed_in? %>
+<div class="btn h1 center">
 	<%= link_to "New Log", new_log_path %>
 </div>
 
 <% else %>
 	Please <a href="/session/new">Sign-In</a> or
-	<a href="">Sign-Up</a>
+	<a href="/users/new">Sign-Up</a>
 <% end %>
