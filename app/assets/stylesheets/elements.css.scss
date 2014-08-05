@@ -119,23 +119,23 @@ th, td {
 }
 .form_field {
 
-  box-shadow: inset 0px 2px 2px #ececec;
+  box-shadow: inset 0px 10px 10px #ececec;
   margin: 0px;
   width: 100%;
 
   border: 1px solid #d4d4d4;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
 
-  line-height: 4.0em;
+  line-height: 3.2em;
   margin: auto;
   margin-bottom: 2%;
   margin-top: 2%;
-  padding: 1%;
+  padding: 0.0em;
 
-  font-size: 3.8em;
+  font-size: 3.0em;
 
   z-index: 2;
 
@@ -145,6 +145,16 @@ th, td {
   -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
       box-sizing: border-box;
+}
+
+.scrollable {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 /* Index Page Element */
