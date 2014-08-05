@@ -1,0 +1,110 @@
+@import 'variables';
+
+
+/*
+Typography
+*/
+
+
+html,
+body {
+  font-family: $primary-font;
+  text-align: center;
+  color: $secondary-font-color;
+}
+
+p {
+  color: $secondary-font-color;
+  text-align: center;
+  font-size: 2em;
+  font-family: $primary-font-color;
+}
+
+.font {
+  font-family: $primary-font-color;
+}
+
+@media (min-width: 768) {
+  p {
+    font-size: 2.5em;
+  }
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $primary-font;
+  font-weight: 200;
+  color: $light-blue;
+  padding: .5em 0;
+}
+
+h2, .h2 {
+  text-transform: uppercase;
+}
+
+h1, .h1 {
+  font-size: 3.8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2, .h2 {
+  font-size: 2.5em;
+}
+
+h3, .h3 {
+  font-size: 2em;
+}
+
+@media (min-width: 1068px) {
+  h1, .h1 {
+    font-size: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  h2, .h2 {
+    font-size: 3.25em;
+    font-weight: 100;
+  }
+
+  h3, .h3 {
+    font-size: 2.5em;
+  }
+}
+
+h6, .h6 {
+  font-family: $primary-font;
+  font-weight: 100;
+  color: $secondary-font-color;
+}
+
+table {
+  th {
+    font-weight: 700;
+    font-size: 90%;
+    font-family: $primary-font;
+    color: $secondary-font-color;
+  }
+  td {
+    font-weight: 500;
+    font-size: 85%;
+    font-family: $primary-font;
+    color: $secondary-font-color;
+  }
+}
+
+.form_font {
+    font-weight: 700;
+    font-size: 100%;
+    font-family: $primary-font;
+    color: $secondary-font-color;
+  }
+
+
+
+

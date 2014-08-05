@@ -1,0 +1,117 @@
+<h2 class="h2"><u>Eating Log</u></h2>
+<%= form_for @log do |form| %>
+
+	<div class="element">
+		<%= form.label :location, "Where were you?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :location, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :time, "What was the time?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.time_field :time, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :people, "Who was with you?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :people, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :activity, "What activities were you engaged in?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :activity, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :ate, "What did you eat?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :ate, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :drink, "What did you drink?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :drink, class: "form_field" %>
+	</div>
+
+	<div class="element">
+		<%= form.label :bing, "Did you bing?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :bing, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :vomit_laxative, "Did you vomit, or use laxatives?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :vomit_laxative, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :triggers, "Where there an event that triggered your eating?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :triggers, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :thoughts, "What where your thougths as you were eating?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :thoughts, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :emotions, "What did you feel? Where there emotions that you felt as you ate?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :emotions, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :exercise, "Have you exersiced?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :exercise, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :exercise_description, "If you have exercised, please provide a description?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :exercise_description, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :amount_exercise, "How long did you exercise for (hrs)?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :amount_exercise, class: "form_field"%>
+	</div>
+
+	<div class="element">
+		<%= form.label :exercise_time, "What time did you start exercising at?", class: "h3" %>
+	</div>
+	<div>
+		<%= form.text_field :exercise_time, class: "form_field"%>
+	</div>
+
+	<div>
+		<%= form.hidden_field :user_id, class: "form_field"%>
+	</div>
+
+	<div>
+		<%= form.submit "Submit", class: "btn h2"%>
+	</div>
+
+<% end %>

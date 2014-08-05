@@ -1,0 +1,137 @@
+@import 'variables';
+@import 'fonts';
+
+
+html {
+  height: 100%;
+}
+
+header {
+  background-color: $primary-background;
+  max-height: 50%;
+  min-height: 4.6em;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  .brand {
+    padding: 10px;
+    padding-left: 9%;
+    color: $white;
+    font-size: 3.8em;
+    font-family: $primary-font;
+    font-weight: lighter;
+  }
+  nav {
+    padding: 10px;
+    padding-right: 9%;
+    margin-top: 6px;
+    position: relative;
+    top: 5px;
+    ul{
+      float: right;
+      li {
+        display: inline-block;
+        list-style: none;
+      }
+    }
+  }
+}
+
+.right-nav {
+  min-width: 30%;
+}
+
+.body {
+  box-sizing: border-box;
+  position: absolute;
+
+  top: 0px;
+  bottom: 0px;
+
+  height: 100%;
+  width: 100%;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+
+  margin: 0px;
+
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  position: relative;
+
+  background-color: $white;
+
+
+}
+
+.content {
+  box-sizing: border-box;
+  height: 100%;
+  width: 96%;
+  padding: 10%;
+  padding-top: 8%;
+  margin: 0%;
+
+  background-color: $black;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  overflow-y: auto;
+}
+
+
+
+.footer {
+  bottom:0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  bottom: 0;
+  background-color: $primary-background;
+  height: 1.5em;
+  z-index: 5;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  color: $light-blue;
+  font-size: 0.9em;
+  font-family: $primary-font;
+  font-weight: lighter;
+}
+
+
+
+
+label {
+  display: inline-block;
+}
+
+
+
+label#search_tag {
+  font-family: $primary-font;
+  font-size: 1em;
+}
+
+
+
+.upload_submit {
+  border: 0px solid white;
+  background: $light-blue;
+  font-family: $primary-font;
+  color: white;
+  border-radius: 0.3em;
+}
+
+/*
+Modal styling
+*/
+

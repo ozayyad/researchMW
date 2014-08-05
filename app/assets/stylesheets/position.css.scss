@@ -1,0 +1,29 @@
+@import 'variables';
+
+/* Positioning */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  position: relative;
+  float: left;
+}
+
+.right {
+  position: relative;
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.inline {
+	display:inline;
+}
+
+
+
