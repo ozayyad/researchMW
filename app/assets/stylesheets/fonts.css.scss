@@ -5,6 +5,9 @@
 Typography
 */
 
+.orange {
+  color: $orange;
+}
 
 html,
 body {
@@ -30,7 +33,6 @@ p {
   }
 }
 
-h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
@@ -39,6 +41,13 @@ h6, .h6 {
   font-family: $primary-font;
   font-weight: 200;
   color: $light-blue;
+  padding: .5em 0;
+}
+
+h1, .h1 {
+  color: $orange;
+  font-family: $primary-font;
+  font-weight: 200;
   padding: .5em 0;
 }
 
